@@ -8,7 +8,7 @@ return new class extends Migration
 {
     public function up(): void
     {
-        Schema::create('jobseekers', function (Blueprint $table) {
+        Schema::create('jobseekers', function (Blueprint $table) { //untuk user
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
