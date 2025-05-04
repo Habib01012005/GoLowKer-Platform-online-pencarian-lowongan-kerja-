@@ -17,7 +17,7 @@ return new class extends Migration
             // Data tambahan user
             $table->string('phone')->nullable();
             $table->text('address')->nullable();
-            $table->string('resume')->nullable(); // file CV, jika ada
+            $table->string('resume')->nullable();
         
             $table->timestamps();
         });
