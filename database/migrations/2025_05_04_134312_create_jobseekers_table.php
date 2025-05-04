@@ -15,10 +15,10 @@ return new class extends Migration
             $table->string('password');
         
             // Data tambahan user
+            $table->foreignId('admin_id')->nullable()->constrained('admins')->onDelete('set null');
             $table->string('phone')->nullable();
             $table->text('address')->nullable();
             $table->string('resume')->nullable();
-        
             $table->timestamps();
         });
         

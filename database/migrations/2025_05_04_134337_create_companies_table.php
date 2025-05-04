@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('password');
         
             // Data tambahan perusahaan
+            $table->foreignId('admin_id')->nullable()->constrained('admins')->onDelete('set null');
             $table->string('phone')->nullable();
             $table->text('company_description')->nullable();
             $table->string('website')->nullable();
@@ -23,7 +24,6 @@ return new class extends Migration
         
             $table->timestamps();
         });
-        
     }
     public function down(): void
     {
