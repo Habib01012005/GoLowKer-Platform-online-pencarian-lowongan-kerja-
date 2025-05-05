@@ -75,7 +75,7 @@
     -   Foreign key: admins_id di [company] merujuk ke id di [admins].
     -   Penjelasan: Seorang admin bisa mengelola banyak perusahaan.
 
--   Tabel [jobseekers] memiliki relasi *one-to-many* dengan tabel [agenda_user].
+-   Tabel [jobseekers] memiliki relasi *one-to-many* dengan tabel [admins].
 
     -   Foreign key: admins_id di [jobseekers] merujuk ke id di [admins].
     -   Penjelasan: Seorang admin juga bisa memantau banyak jobseeker.
