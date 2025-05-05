@@ -44,6 +44,7 @@
 | email      | VARCHAR(255) | Email unik untuk login                                    |
 | password   | VARCHAR(255) | Password terenkripsi                                      |
 | admins_id  | INT          | ID pengguna yang didaftarkan (relasi ke tabel admins)     |
+| phone      | VARCHAR(255) | no phone untuk dihubungi perusahaan                       |
 | address    | TEXT         | Alamat lengkap pengguna                                   |
 | created_at | TIMESTAMP    | Waktu dibuat                                              |
 | updated_at | TIMESTAMP    | Waktu diperbarui                                          |
