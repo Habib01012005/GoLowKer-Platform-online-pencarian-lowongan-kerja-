@@ -1,7 +1,7 @@
 <p align="center">
   <b>GoLowKer</b><br>
   <i>(Platform Online Pencarian Lowongan Kerja)</i><br><br>
-  <img src="images/logoUnsulbar.jpg" width="150"><br><br>
+  <img src="images/logoUnsulbar .png" width="150"><br><br>
   <b>Ahmad Habib Bukhori</b><br>
   <b>D0223017</b><br><br>
   Framework Web Based<br>
